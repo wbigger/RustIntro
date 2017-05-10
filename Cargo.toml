@@ -1,0 +1,18 @@
+[package]
+name = "RustIntro"
+version = "0.1.0"
+authors = ["Claudio Capobianco <wbigger@gmail.com>"]
+
+[[bin]]
+name = "ownership"
+path = "src/ownership.rs"
+
+[[bin]]
+name = "borrowing"
+path = "src/borrowing.rs"
+
+[[bin]]
+name = "lifetime"
+path = "src/lifetime.rs"
+
+[dependencies]
